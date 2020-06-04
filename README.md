@@ -1,0 +1,1 @@
+This is a mini-project where the purpose is to deconstruct an already existing webpage and then reconstruct it. It may not be fully functional after reconstruction in the sense that the links will be broken and the search engine functionality will be offline, but the purpose of this is to gain familiarity with html and css and how elements interact on a page.
