@@ -1,17 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 #main-block{  
-    background-color: black;
+    
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 
 }
+
 #google-logo {
     padding-top: 100px;  
     padding-bottom: 0px;  
-
-
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link {
+    font-size: 0.85rem; 
+    text-decoration: none;
+    color:black;
+    padding-right: 1rem;
+    
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: black;
+}
+.nav-app-menu {
+    width: 1.5rem;
+    height: auto; 
+}
+.nav-app-menu:hover {
+    opacity: 150;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    
+    
+    
 }
 #search-bar {
-    /*max-width: 30%;*/
+    max-width: 30%;
     width: 90%;
     height: 80%;
     border-radius: 20px;
@@ -19,7 +61,14 @@
 
 }
 #search-block {
-    background-color: gray;
     display: flex;
     justify-content: center;
+}
+.sign-in {
+    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    border: none;
+    color: white;
+    padding: 6px 12px 6px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
 }
