@@ -1,12 +1,8 @@
 <!DOCTYPE html>
-<!--TO DO STILL
-1)  ADD FORM ELEMENTS TO THE SEARCH BAR AS IF IT WOULD ACTUALLY SUBMIT USER TEXT TO QUERY
-2)  Fix it so that the navigation bar at the top is populated with the appropriat links and images
-
-
--->
-
+<html>
 <head>
+    <meta charset="utf-8">
+    <title>Recreate the Google Home Page</title>
     <!--Link to external css style sheet-->
     <link
     rel="stylesheet"
@@ -21,7 +17,7 @@
             <a href="" class="nav-link">About</a>
             <a href="" class="nav-link">Store</a>
         </div>
-
+        
         <div class="nav-right">
             <a href="" class="nav-link">Gmail</a>
             <a href="" class="nav-link">Images</a>
@@ -29,21 +25,49 @@
             <a href="" class="nav-link"><button type="button" class="sign-in"><strong>Sign In</strong></button></a>
         </div>
     </nav>
-
-    </div>
     <!--End Top BAr-->
+
     <main>
         <!--Logo-->
-    <div id="main-block" class="main-content">
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="colored google logo">
-    </div>
-    <!--End Logo-->
+        <div id="main-block" class="main-content">
+            <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="colored google logo">
+        </div>
+        <!--End Logo-->
 
-    <!--Search bar-->
-    <div id="search-block" class="main-content">
-        <input id="search-bar"  type="text" placeholder="   Search...">
-    </div>
-    <!--End search bar-->
-    <div></div>
+        <!--Search bar-->
+        <form>
+            <div id="search-block" class="main-content">
+                <img id="magnifying-glass" src="/images/magnifyingGlass.png" alt="magnifying glass">
+                <input id="search-bar"  type="text" placeholder="Search">    
+            </div>
+
+            <div id="search-buttons">
+                <button type="button" class="button">Google Search</button>
+                <button type="button" class="button">I'm Feeling Lucky</button> 
+            </div>
+        </form>
+        <!--End search bar-->
+        <div class="french">
+            Google offered in:  
+            <a href="">  Français</a>
+        </div>
+        <!--Footers-->
+        <div class="footerBlock">
+            <div class="country">Canada</div>
+            <div class="footer">
+                <div class="footer-left">
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">How Search Works</a>
+                </div>
+                <div class="footer-right">
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </div>
+            </div>
+        </div>
+        <!--End footers-->
     </main>
 </body>
+</html>

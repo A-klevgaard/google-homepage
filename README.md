@@ -1,1 +1,5 @@
 This is a mini-project where the purpose is to deconstruct an already existing webpage and then reconstruct it. It may not be fully functional after reconstruction in the sense that the links will be broken and the search engine functionality will be offline, but the purpose of this is to gain familiarity with html and css and how elements interact on a page.
+
+After completing this page to a degree that I'm  where I'm satisfied enough with it, I have a few comments. It could certainly use some more polish, and both my hmtl file and my css files could be organized better (especially my css file, wwhich has no clear organization or order that the rules would be applied with)
+
+Still however, the main purpose of this project was to begin to familiarize myself more with writing html and css, and with respect to that goal I feel like I have learned alot. Some of my current stumbling blocks that ate up a large amount of time was getting my elements centered in the page. I tried to use flexbox mainly to control that, however I clearly need more practice to be truly comfortable arranging elements on a page.
