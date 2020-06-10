@@ -1,14 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-#main-block{  
-    
+#main-block{    
     display: flex;
     justify-content: center;
     margin-top: 70px;
-
 }
-
 #google-logo {
     padding-top: 100px;  
     padding-bottom: 0px;  
@@ -24,7 +21,6 @@ body {
     text-decoration: none;
     color:black;
     padding-right: 1rem;
-    
 }
 .nav-link:hover {
     text-decoration: underline;
@@ -50,7 +46,6 @@ body {
     padding-top: 1rem;  
 }
 #search-bar {
-
     border: none;
     margin-left: 25px;
     width: 100%;   
